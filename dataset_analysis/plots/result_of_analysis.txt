@@ -1,0 +1,55 @@
+Number of train 43410
+Number of validation 5426
+Number of test 5427
+Number of Rows Full data 43410
+Column names ['TEXT', 'LABELS', 'ID']
+
+Count
+admiration        4036
+approval          2737
+gratitude         2648
+annoyance         2338
+amusement         2271
+curiosity         2073
+love              2048
+disapproval       1913
+optimism          1533
+anger             1494
+joy               1407
+confusion         1270
+sadness           1268
+disappointment    1204
+realization       1034
+surprise          1027
+caring            1026
+excitement         832
+disgust            764
+desire             614
+fear               576
+remorse            541
+embarrassment      291
+nervousness        156
+relief             145
+pride              105
+grief               75
+Name: EMOTIONS, dtype: int64
+
+Bottom 5 unrepresented classes ('full', 12    291
+19    156
+23    145
+21    105
+16     75
+Name: LABELS, dtype: int64)
+
+
+Length (after preprocess) of full dataframe 29191
+Percentage of more than one annotation 19.55%
+
+Additional Statistics
+Mean 1312.0741
+Median 1204.0
+Mode admiration (4036 counts)
+Min 75
+Max 4036
+Range 3961
+Max aprox. Tokens in one sentence 33
